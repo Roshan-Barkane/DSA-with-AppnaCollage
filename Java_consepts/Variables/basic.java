@@ -20,5 +20,9 @@ public class basic {
         System.out.println(ll);
         System.out.println(c);
 
+        // change the value
+        a = 150;
+        System.out.println(a);
+
     }
 }
