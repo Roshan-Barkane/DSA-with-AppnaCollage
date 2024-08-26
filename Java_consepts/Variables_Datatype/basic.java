@@ -1,4 +1,4 @@
-package Java_consepts.Variables;
+package Java_consepts.Variables_Datatype;
 
 public class basic {
     public static void main(String args[]) {
