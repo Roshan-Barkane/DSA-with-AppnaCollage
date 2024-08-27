@@ -19,8 +19,16 @@ public class product_ab {
          * ¤ same value
          * eg :
          * byte -> short -> int -> float -> long -> double
-         * 2. Type Costing
+         * 2. Type Costing (norrowing conversion , explicit conversion)
          * eg : int marks = (int) 99.99f
+         */
+
+        /*
+         * Type promotion in Expression
+         * 1 java automatically promotes each byte,shortm or char operand to int
+         * when evaluating an expression
+         * 2. if one operand is long, float or double the whole expression is promoted
+         * to long, float, or double respectively.
          */
     }
 
