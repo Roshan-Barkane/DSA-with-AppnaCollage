@@ -10,6 +10,18 @@ public class product_ab {
         int second = sc.nextInt();
         int product = first * second;
         System.out.println("Product of two no. : " + product);
+
+        /*
+         * We can data are stored one datatype to another datatype
+         * 1. Type conversion
+         * rules :
+         * ¤ small data to big data
+         * ¤ same value
+         * eg :
+         * byte -> short -> int -> float -> long -> double
+         * 2. Type Costing
+         * eg : int marks = (int) 99.99f
+         */
     }
 
 }
