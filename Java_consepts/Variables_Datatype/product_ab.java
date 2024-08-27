@@ -8,7 +8,7 @@ public class product_ab {
         Scanner sc = new Scanner(System.in);
         int first = sc.nextInt();
         int second = sc.nextInt();
-        int product = first + second;
+        int product = first * second;
         System.out.println("Product of two no. : " + product);
     }
 
