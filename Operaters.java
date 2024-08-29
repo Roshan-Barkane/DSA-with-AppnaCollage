@@ -28,12 +28,19 @@ class Operaters {
 
         // Relationship operators
 
-        System.out.println("a is less than b  " + (a < b));
-        System.out.println("a is grater than b " + (a > b));
-        System.out.println("a is greater than and equal to b " + (a <= b));
-        System.out.println("a is less than and equal to b " + (a >= b));
-        System.out.println("a is qual to b " + (a == b));
-        System.out.println("a in not qual to b " + (a != b));
+        /*
+         * System.out.println("a is less than b  " + (a < b));
+         * System.out.println("a is grater than b " + (a > b));
+         * System.out.println("a is greater than and equal to b " + (a <= b));
+         * System.out.println("a is less than and equal to b " + (a >= b));
+         * System.out.println("a is qual to b " + (a == b));
+         * System.out.println("a in not qual to b " + (a != b));
+         */
+
+        // Logical Operators
+        System.out.println(" Logical AND " + ((a < b) && (a != b)));
+        System.out.println("Logical OR " + ((a > b) && (a != b)));
+        System.out.println("Logical NOT " + !(a > b));
 
     }
 }
