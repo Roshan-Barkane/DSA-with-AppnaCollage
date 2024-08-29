@@ -38,9 +38,17 @@ class Operaters {
          */
 
         // Logical Operators
-        System.out.println(" Logical AND " + ((a < b) && (a != b)));
-        System.out.println("Logical OR " + ((a > b) && (a != b)));
-        System.out.println("Logical NOT " + !(a > b));
+        /*
+         * System.out.println(" Logical AND " + ((a < b) && (a != b)));
+         * System.out.println("Logical OR " + ((a > b) && (a != b)));
+         * System.out.println("Logical NOT " + !(a > b));
+         */
+
+        // Assignment Operators
+        System.out.println(" b value assign to a " + (a = b));
+        System.out.println(" add the a,b then result assign a " + (a += b));
+        System.out.println("sub the a,b then result assign a " + (a -= b));
+        System.out.println("multi the a,b then result assign a " + (a *= b));
 
     }
 }
