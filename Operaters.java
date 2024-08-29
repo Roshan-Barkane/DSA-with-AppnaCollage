@@ -40,7 +40,7 @@ class Operaters {
         // Logical Operators
         /*
          * System.out.println(" Logical AND " + ((a < b) && (a != b)));
-         * System.out.println("Logical OR " + ((a > b) && (a != b)));
+         * System.out.println("Logical OR " + ((a > b) || (a != b)));
          * System.out.println("Logical NOT " + !(a > b));
          */
 
