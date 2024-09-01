@@ -16,5 +16,8 @@ public class check_multiple {
             System.out.println("value is : " + num);
             i++;
         } while (i < 100);
+        /*
+         * condition in pass the true that is run infinite time .
+         */
     }
 }
