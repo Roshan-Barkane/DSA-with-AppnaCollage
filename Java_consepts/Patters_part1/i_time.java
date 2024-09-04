@@ -10,5 +10,19 @@ public class i_time {
          * 3. how to print us.
          *
          */
+
+        /*
+         * ----- *
+         * ----- * *
+         * ----- * * *
+         * ----- * * * *
+         * ----- * * * * *
+         */
+        for (int line = 1; line <= 5; line++) {
+            for (int star = 1; star <= line; star++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
     }
 }
