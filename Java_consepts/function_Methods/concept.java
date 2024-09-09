@@ -4,8 +4,8 @@ public class concept {
     /*
      * Function and Methods --> function is a set of instruction perform the special
      * task and that is reduce the line of code in a program.
-     * syntax :-
-     * return type function_name(arguments){
+     * syntax :- simple formate
+     * return type function_name(){
      * ------------
      * ------------- body of the function
      * -------------
