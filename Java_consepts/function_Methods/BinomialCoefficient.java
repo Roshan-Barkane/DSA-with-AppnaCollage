@@ -12,6 +12,7 @@ public class BinomialCoefficient {
         int r = sc.nextInt();
         int ncr = binomialCoeff(n, r);
         System.out.println("Binomial Coefficient is : " + ncr);
+        sc.close();
     }
 
     // Factorial
