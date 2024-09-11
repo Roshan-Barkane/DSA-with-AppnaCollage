@@ -14,8 +14,8 @@ public class overloading2 {
     public static void main(String args[]) {
 
         // call the sum function
-        System.out.println("Sum of two no. :" + sum(10, 20));
-        System.out.println("Sum of two no. :" + sum(15.5f, 10.5f));
+        System.out.println("Sum of two no. :" + sum(3, 5));
+        System.out.println("Sum of two no. :" + sum(3.2f, 4.8f));
 
     }
 }
