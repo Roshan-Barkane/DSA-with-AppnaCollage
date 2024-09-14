@@ -6,28 +6,22 @@ public class palindroom {
     public static void main(String arf[]) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        /*
-         * if(pidroom(n);) {
-         * System.out.println("Number : " + n + " is a palindrome");
-         * } else {
-         * System.out.println("Number : " + n + " is not a palindrome");
-         * }
-         */
+
         pidroom(n);
     }
 
-    public static void pidroom(int n) {
-        int palindrome = n; // copied number into variable
-        int reverse = 0;
-        while (palindrome != 0) {
-            int remainder = palindrome % 10;
-            reverse = reverse * 10 + remainder;
-            palindrome = palindrome / 10;
+    public static void pidroom(int num) {
+        int reverseNum = 0, remainder;
+        int originalNumber = num;
+        while (num > 0) {
+            remainder = num % 10;
+            reverseNum = (reverseNum * 10) + remainder;
+            num /= 10;
         }
-        if (palindrome == reverse) {
-            System.out.println(" Number is Palindrome");
+        if (originalNumber == reverseNum) {
+            System.out.println(originalNumber + " is Palindrome, ");
         } else {
-            System.out.println("Number is not Palindrome");
+            System.out.println(originalNumber + " is not Palindrome, ");
         }
     }
 }
