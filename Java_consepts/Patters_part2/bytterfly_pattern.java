@@ -41,6 +41,6 @@ public class bytterfly_pattern {
     }
 
     public static void main(String args[]) {
-        bytterflyPatterm(4);
+        bytterflyPatterm(5);
     }
 }
