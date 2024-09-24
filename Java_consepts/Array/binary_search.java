@@ -1,6 +1,16 @@
 package Java_consepts.Array;
 
 public class binary_search {
+    /*
+     * algorithm :
+     * create variable start, end
+     * while
+     * -----> find mid
+     * -----> compate mid == key return mid
+     * ----> if mid >key then update start = mid+1 and if mid <key then update mid =
+     * mid-1
+     * return -1;
+     */
     public static int binarySearch(int array[], int key) {
         int start = 0, end = array.length - 1;
         while (start <= end) {
