@@ -13,10 +13,26 @@ public class buy_sellStock {
         }
         System.out.println("Stack profit : " + profit);
     }
+
     // second code aapka collage
+    public static void buySellStaock(int price[]) {
+        int buyPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+        for (int i = 0; i < price.length; i++) {
+            if (buyPrice < price[i]) {
+                int profit = price[i] - buyPrice;
+                maxProfit = Math.max(maxProfit, profit);
+            } else {
+                buyPrice = price[i];
+            }
+        }
+        System.out.println("Profit of Max Stock :" + maxProfit);
+
+    }
 
     public static void main(String arg[]) {
         int price[] = { 7, 1, 5, 3, 6, 4 };
-        buySell(price);
+        // buySell(price);
+        buySellStaock(price);
     }
 }
