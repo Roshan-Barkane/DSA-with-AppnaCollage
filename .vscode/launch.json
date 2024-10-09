@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "counting_sort",
+            "request": "launch",
+            "mainClass": "Java_consepts.sorting.counting_sort",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
             "name": "inbuilt_sort",
             "request": "launch",
             "mainClass": "Java_consepts.sorting.inbuilt_sort",
