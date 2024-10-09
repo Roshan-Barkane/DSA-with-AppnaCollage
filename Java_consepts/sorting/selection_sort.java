@@ -6,7 +6,7 @@ public class selection_sort {
         for (int i = 0; i < a.length - 1; i++) {
             int minPos = i;
             for (int j = i + 1; j < a.length; j++) {
-                if (a[minPos] < a[j]) {
+                if (a[minPos] > a[j]) {
                     minPos = j;
                 }
             }

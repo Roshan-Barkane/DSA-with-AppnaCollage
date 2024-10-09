@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "counting_sortDec",
+            "request": "launch",
+            "mainClass": "Java_consepts.sorting.counting_sortDec",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
+            "name": "selection_sortDec",
+            "request": "launch",
+            "mainClass": "Java_consepts.sorting.selection_sortDec",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
             "name": "insertion_sortDec",
             "request": "launch",
             "mainClass": "Java_consepts.sorting.insertion_sortDec",
