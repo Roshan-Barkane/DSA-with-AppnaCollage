@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "consept",
+            "request": "launch",
+            "mainClass": "Java_consepts.Two_D_Array.consept",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
             "name": "counting_sortDec",
             "request": "launch",
             "mainClass": "Java_consepts.sorting.counting_sortDec",
