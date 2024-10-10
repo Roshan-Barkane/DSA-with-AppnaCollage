@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "largest_no",
+            "request": "launch",
+            "mainClass": "Java_consepts.Two_D_Array.largest_no",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
             "name": "consept",
             "request": "launch",
             "mainClass": "Java_consepts.Two_D_Array.consept",
