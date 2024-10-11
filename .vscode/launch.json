@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "spiral_matrix",
+            "request": "launch",
+            "mainClass": "Java_consepts.Two_D_Array.spiral_matrix",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
             "name": "largest_no",
             "request": "launch",
             "mainClass": "Java_consepts.Two_D_Array.largest_no",
