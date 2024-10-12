@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "optimize_diagonalEle",
+            "request": "launch",
+            "mainClass": "Java_consepts.Two_D_Array.optimize_diagonalEle",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
+            "name": "diogonal_element",
+            "request": "launch",
+            "mainClass": "Java_consepts.Two_D_Array.diogonal_element",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
             "name": "print_spiral",
             "request": "launch",
             "mainClass": "Java_consepts.Two_D_Array.print_spiral",
