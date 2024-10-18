@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "quesition1",
+            "request": "launch",
+            "mainClass": "Java_consepts.Two_D_Array.quesition1",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
             "name": "sortting",
             "request": "launch",
             "mainClass": "Java_consepts.Two_D_Array.sortting",
