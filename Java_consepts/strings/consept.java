@@ -3,6 +3,14 @@ package Java_consepts.strings;
 import java.util.Scanner;
 
 public class consept {
+    // his function print the one by one latter in the given String
+    public static void charTofString(String name) {
+        for (int i = 0; i < name.length(); i++) {
+            System.out.print(name.charAt(i) + " ");
+        }
+        System.out.println();
+    }
+
     public static void main(String args[]) {
         /*
          * if you are stored the letter simply use character array but if you store as a
@@ -36,6 +44,19 @@ public class consept {
         // System.out.println(name.length());
 
         // Concatenation in the string
+        /*
+         * String firstName = "Roshan";
+         * String secondName = "Barkane";
+         * String fullName = firstName + " " + secondName;
+         * System.out.println(fullName);
+         */
+
+        // find the character use to index with charAt(index)
+        /*
+         * String name = "Roshan";
+         * System.out.println(name.charAt(0)); // print only R
+         * charTofString(name); // print latter of given String
+         */
 
     }
 }
