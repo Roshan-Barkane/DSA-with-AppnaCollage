@@ -29,8 +29,18 @@ public class quesition7_destination {
         return (float) Math.sqrt(x1 + y1);
     }
 
+    public static String subString(String s, int si, int ei) {
+        String subStr = "";
+        for (int i = si; i < ei - 1; i++) {
+            subStr += s.charAt(i);
+        }
+        return subStr;
+    }
+
     public static void main(String args[]) {
         String path = "WNEENESENNN";
+        System.out.println(subString(path, 0, 7));
+        System.err.println(path.substring(0, 6));
         System.out.println(getShortestPath(path));
     }
 }
