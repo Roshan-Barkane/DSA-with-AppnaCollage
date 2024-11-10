@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "quesition7_destination",
+            "request": "launch",
+            "mainClass": "Java_consepts.strings.quesition7_destination",
+            "projectName": "ApnaCollage_DSA_ee283ed5"
+        },
+        {
+            "type": "java",
             "name": "palidrone",
             "request": "launch",
             "mainClass": "Java_consepts.strings.palidrone",
