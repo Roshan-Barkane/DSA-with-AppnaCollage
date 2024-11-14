@@ -7,6 +7,7 @@ public class stringBuilder {
         for (char ch = 'a'; ch <= 'z'; ch++) {
             str.append(ch);
         }
+        System.out.println(str.length());
         return str.toString();
     }
 
